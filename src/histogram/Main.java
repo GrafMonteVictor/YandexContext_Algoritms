@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         //читаем из файла
         String input = "";
-        try ( FileReader fr = new FileReader("input.txt");
+        try ( FileReader fr = new FileReader("input");
              BufferedReader reader = new BufferedReader(fr)){
             String line = "";
             while (line != null) {
